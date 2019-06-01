@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>3d Routation</title>
+    </head>
+    <body>
+        <button>Switch color</button>
+        <script type='text/javascript'>
+            var color= ["#222f3e","#d334","#777",'#45e','red','blue'];
+            var i = 0;
+            document.querySelector("button").addEventListener("click",
+             function(){
+                i = i < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]
+
+            })
+        </script>
+    </body>
+</html>

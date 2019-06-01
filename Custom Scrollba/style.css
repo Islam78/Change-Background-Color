@@ -1,0 +1,13 @@
+section{
+    width:100%;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb
+{
+    
+    background: linear-gradient(#fff,blue,#fff);
+    border-radius: 6px;
+}

@@ -1,0 +1,14 @@
+body{
+    height: 1700px;
+}
+
+h1{
+    position: fixed;
+    top: 50%;
+    left:500px;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 5em;
+    color:red ;
+
+}

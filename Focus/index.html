@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>3d Routation</title>
+    </head>
+    <body>
+         <div class='b'>
+                <div id='cursor'></div>
+        </div>
+        <script type='text/javascript'>
+            var cursor = document.getElementById('cursor');
+            document.addEventListener('mousemove'
+                , function(e){
+                    var x= e.clientX;
+                    var y= e.clientY;
+                    cursor.style.left = x + 'px';
+                    cursor.style.top = y + 'px';
+                })
+        </script>
+    </body>
+</html>
